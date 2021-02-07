@@ -1,6 +1,28 @@
 # Image-Captioning
+Image Captioning is the process of generating textual description of an image. In this project i have generated Captions for Images using ML, Computer Vision and Deep learning algorithms
 
-This is a project in which I have to generate captions from a given Image dataset
+
+
+### About the Dataset
+Can download the dataset from here- https://www.kaggle.com/shadabhussain/flickr8k?select=Flickr_Data
+1. Flikr8k_Dataset (Contains Images)
+2. Flikr8k_text (Contains Text)
+Dataset contains 8000 images, of which 6000 are used for training purpose and remaining for validattion and testing.
+Each image has almost 5 captions in Flickr8k.txt. This means in total there are 8000*5=40000 captions in the text file Flikr8k_token.txt
+
+
+
+### Steps taken in the project
+1.Data collection<br>
+2.Understanding the data<br>
+3.Data Cleaning<br>
+4.Loading the training set<br>
+5.Data Preprocessing — Images<br>
+6.Data Preprocessing — Captions<br>
+7.Data Preparation using Generator Function<br>
+8.Word Embeddings<br>
+9.Model Architecture<br>
+10.Inference<br>
 
 
 ![alt text](https://github.com/tusharjaiswal123/Image-Captioning/blob/main/image/encoder-decoder.png)
@@ -15,12 +37,6 @@ This is a project in which I have to generate captions from a given Image datase
 ## Decode:
 ![alt text](https://github.com/tusharjaiswal123/Image-Captioning/blob/main/image/decoder.png)
 For Decoder we use LSTM. Long Short-Term Memory (LSTM) networks are a modified version of recurrent neural networks, which makes it easier to remember past data in memory. The vanishing gradient problem of RNN is resolved here. LSTM is well-suited to classify, process and predict time series given time lags of unknown duration. It trains the model by using back-propagation
-
-
-
-## Dataset
-The dataset used is flickr8k. You can request the data [here](https://illinois.edu/fb/sec/1713398). An email for the links 
-of the data to be downloaded will be mailed to your id. Extract the images in Flickr8K_Data and the text data in Flickr8K_Text.
 
 
 ## Results
