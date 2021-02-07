@@ -25,6 +25,8 @@ Each image has almost 5 captions in Flickr8k.txt. This means in total there are 
 10.Inference<br>
 
 
+### Model Architecture
+
 ![alt text](https://github.com/tusharjaiswal123/Image-Captioning/blob/main/image/encoder-decoder.png)
 
 
